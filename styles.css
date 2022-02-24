@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    background-color:whitesmoke;
+    color: black;
+
+}
+.carousal{
+    width:200px;
+    height:200px;
+}
+
+.wrapper {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+}
+
+.header {
+    display:flex;
+    flex: 1;
+}
+
+.header2 {
+    display:flex;
+    justify-content: space-around;
+
+
+}
+
+.left-content {
+    align-self: center;
+    text-align:center;
+}
+
+.right-content {
+    align-items:center;
+    display: inline-block;
+    margin: 30px;
+}
+
+.header3{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header4{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header5{
+    display:flex;
+    flex-direction: column;
+}
+
+.txt3 {
+    display:flex;
+    justify-content: center;
+    margin: 25px;
+    font-size: 36px;
+    weight: 1000;
+}
+
+.txt4 {
+    display:flex;
+    justify-content: space-around;
+    margin: 25px;
+    font-size:36px;
+    weight: 1000;
+}
+
+.txt5 {
+    display:flex;
+    justify-content: center;
+    margin: 25px;
+    font-size: 36px;
+    weight: 1000;
+
+}
+
+.imgsubtext {
+    display:flex;
+    justify-content:space-around;
+}
+
+.img2subtext {
+    display:flex; 
+    justify-content: space-around;
+}
+
+img {
+    width: 300px;
+}
+
+.line1 {
+    font-size: 72px;
+    weight : 900;
+}
+
+.line2 {
+    font-size: 30px;
+    weight: 500;
+}
+
+.left-links {
+    display:flex;
+    list-style-type: none;
+    flex: 1;
+    margin-left: 50px;
+    font-size: 24px;
+
+}
+
+.right-links {
+    display:flex;
+    gap: 10px;
+    list-style-type: none;
+    margin-right: 50px;
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 18px;
+
+}
+a.signupbutton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
